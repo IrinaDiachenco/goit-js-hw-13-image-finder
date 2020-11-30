@@ -65,7 +65,7 @@ observer.observe(refs.watcher);
 function onClickImage({ target: { dataset } }) {
     basicLightbox
       .create(
-        `<img width="" height="" src="${dataset.sourse}">
+        `<img width="" height="" alt= "" src="${dataset.sourse}">
     `,
       )
       .show();
