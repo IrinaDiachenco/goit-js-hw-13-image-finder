@@ -8,6 +8,7 @@ import '@pnotify/core/dist/BrightTheme.css';
 import './styles.css';
 export const myPnotify = title => error({ title, delay: 2000 }, 200);
 const refs = {
+  form: document.querySelector ('#search-form'),
   input: document.querySelector('#search-form input'),
   outputList: document.querySelector('.gallery'),
   watcher: document.querySelector('.watcher'),
